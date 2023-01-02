@@ -38,7 +38,7 @@ const Main = () => {
         <>
             <Header/>
             <div className='flex flex-col bg-black scroll-smooth'>
-                <div className="overflow-hidden flex sm:bg-center justify-center items-center h-screen bg-no-repeat w-screen bg-cover sm:w-auto">
+                <div className="overflow-hidden flex flex-col sm:bg-center justify-center items-center h-screen bg-no-repeat w-screen bg-cover sm:w-auto">
                     <div className='text-green-500 font-bold' data-aos='fade'>Torpedo Military</div>
                     <div className='text-white' data-aos='fade'>Проект разработки современной электрической военной техники для армии Российской Федерации.</div>
                 </div>
