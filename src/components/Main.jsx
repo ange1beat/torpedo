@@ -38,7 +38,7 @@ const Main = () => {
         <>
             <Header/>
             <div className='flex flex-col bg-black scroll-smooth'>
-                <div className="overflow-hidden flex sm:bg-center justify-center items-center h-screen sm:bg-[url('components/images/auto.jpg')] bg-[url('components/images/mobwallpaper.jpg')] bg-no-repeat w-screen bg-cover sm:w-auto">
+                <div className="overflow-hidden flex sm:bg-center justify-center items-center h-screen bg-no-repeat w-screen bg-cover sm:w-auto">
                     <div className='sm:text-[50px] text-[150%] sm:mb-[25%] mb-[100%] font-bold text-white drop-shadow-md'>Будущее начинается здесь</div>
                 </div>
                 <div id='advt' className='text-center w-100% p-5'>
