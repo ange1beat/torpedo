@@ -65,7 +65,7 @@ export default function Header() {
                                 <a href="#eng">Разработка</a>
                             </li>
                             <li className="text-white hover:text-purple-400">
-                                <a href="#act">Перспективы</a>
+                                <a href="#act">Бизнес-план</a>
                             </li>
                             <li className="text-white hover:text-purple-400">
                                 <a href="#tem">Команда</a>
