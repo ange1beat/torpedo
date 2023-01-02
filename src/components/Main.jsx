@@ -1,10 +1,17 @@
 
+
 import { useEffect } from 'react';
 import auto2 from './images/auto2.jpg';
 import auto3 from './images/auto3.jpg';
 import auto4 from './images/auto4.jpg';
+import auto5 from './images/auto5.jpg';
 import militaty from './images/military.jpg';
 import service from './images/service.jpg'
+import scheme1 from './images/scheme1.jpg'
+import scheme2 from './images/scheme2.jpg'
+import scheme3 from './images/scheme3.jpg'
+import plan1 from './images/plan1.jpg'
+import plan2 from './images/plan2.jpg'
 import vid1 from './images/vid1.mp4';
 import vid2 from './images/vid2.mp4';
 import vid3 from './images/vid3.mp4';
@@ -53,6 +60,11 @@ const Main = () => {
                         <div className='font-bold text-[130%]' data-aos='fade'>Лучшая безопасность</div>
                         <div className='sm:w-[50%] w-[90%]' data-aos='fade'>Обладает инновационной системой курсовой устойчивости за счет управления каждым мотором на каждое колесо в зависимости от угла поворота руля.</div>
                     </div>
+                    <div className='flex flex-col gap-3 text-white text-center items-center'>
+                        <div><img src={auto5} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
+                        <div className='font-bold text-[130%]' data-aos='fade'>Возможность передвижения по воде</div>
+                        <div className='sm:w-[50%] w-[90%]' data-aos='fade'>Имеет возможность преодолевать водные преграды за счет возможности использования герметичного корпуса тк нету рулевых тяг и проводов на колеса.</div>
+                    </div>
                 </div>
                 <div id='eng' className='text-center w-100% p-5'>
                     <div className='m-auto text-[200%] sm:text-[300%] font-bold w-max bg-gradient-to-r bg-clip-text text-transparent from-purple-500 via- to-sky-400 animate-text w-auto'>РАЗРАБОТКА</div>
@@ -70,20 +82,23 @@ const Main = () => {
                     <div className='flex flex-col gap-3 text-white text-center items-center'>
                         <video src={vid1} className='w-[100%] h-[100%] sm:w-screen' loop autoPlay muted/>
                     </div>
+                    <div><img src={scheme1} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
+                    <div><img src={scheme2} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
+                    <div><img src={scheme3} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
                 </div>
                 <div id='act' className='text-center w-100% p-5'>
-                     <div className='m-auto text-[200%] sm:text-[300%] font-bold w-max bg-gradient-to-r bg-clip-text text-transparent from-purple-500 via- to-sky-400 animate-text w-auto'>ПЕРСПЕКТИВЫ</div>
+                     <div className='m-auto text-[200%] sm:text-[300%] font-bold w-max bg-gradient-to-r bg-clip-text text-transparent from-purple-500 via- to-sky-400 animate-text w-auto'>БИЗНЕС-ПЛАН</div>
                 </div>
                 <div className='flex flex-col items-center justify-center text-white gap-5 text-center sm:text-[50px] text-[140%]'>
                     <div className='flex flex-col text-white' data-aos='slide-up'>
-                        <div><img src={militaty} alt='auto2' className='w-[100%] m-auto'/></div>
-                        <div className='font-bold text-green-500'>TORPEDO MILITARY</div>
-                        <div>Электротехника предназначенная для военных целей</div>
+                        <div><img src={plan1} alt='auto2' className='w-[100%] m-auto'/></div>
+                        <div className='font-bold text-green-500'>Вложения в производство</div>
+                        <div>Примерные цифры для вложения в первую линию производства</div>
                     </div>
                     <div className='flex flex-col text-white' data-aos='slide-up'>
-                    <div><img src={service} alt='auto2' className='w-[100%] m-auto'/></div>
-                        <div className='font-bold text-orange-400'>TORPEDO SERVICE</div>
-                        <div>Электротехника предназначенная для обслуживания ЖКХ</div>
+                        <div><img src={plan2} alt='auto2' className='w-[100%] m-auto'/></div>
+                        <div className='font-bold text-green-500'>Вложения в опытный образец</div>
+                        <div>Необходимые расходы, чтобы протестировать первый образец и закончить его окончательный вариант</div>
                     </div>
                 </div>
 
@@ -135,8 +150,8 @@ const Main = () => {
                 <a href='https://qiwi.com/p/79686829745'><div className='border-solid border-4 rounded-tl-lg rounded-br-lg border-white text-center justify-center m-auto sm:text-[40px] text-[110%] p-5 mb-20 cursor-pointer font-bold hover:bg-white hover:text-black'>Инвестировать</div></a>
             </div>
 
-            <div className="bg-zinc-900">
-            <div className="flex flex-col items-center justify-center text-zinc-500 p-2">
+            <div className="black">
+            <div className="flex flex-col items-center justify-center text-white p-2">
                 <a href='https://t.me/fakelEl'>Telegram</a>
                 <a href='#'>anton-troickii@mail.ru</a>
                 <a href='#'>+7 916 971 5291</a>
