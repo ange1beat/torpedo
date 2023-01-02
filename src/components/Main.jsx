@@ -40,6 +40,7 @@ const Main = () => {
             <div className='flex flex-col bg-black scroll-smooth'>
                 <div className="overflow-hidden flex sm:bg-center justify-center items-center h-screen bg-no-repeat w-screen bg-cover sm:w-auto">
                     <div className='sm:text-[50px] text-[150%] sm:mb-[25%] mb-[100%] font-bold text-white drop-shadow-md' data-aos='fade'>Будущее начинается здесь</div>
+                    <div className='text-white'>Torpedo Military - проект разработки современной электрической военной техники для армии Российской Федерации.</div>
                 </div>
                 <div id='advt' className='text-center w-100% p-5'>
                     <div className='m-auto text-[200%] sm:text-[300%] font-bold w-max bg-gradient-to-r bg-clip-text text-transparent from-purple-500 via- to-sky-400 animate-text'>ПРЕИМУЩЕСТВА</div>
