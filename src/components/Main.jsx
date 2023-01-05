@@ -57,7 +57,7 @@ const Main = () => {
                     <div className='flex flex-col gap-3 text-white text-center items-center'>
                         <div><img src={auto2} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
                         <div className='font-bold text-[130%]' data-aos='fade-up'>Высокая маневренность</div>
-                        <div className='sm:w-[50%] w-[90%]' data-aos='fade-up'>Машина обладает более высокой маневренностью среди конкурентов, упрощает парковку (имеется боковой ход) может делать разворот на месте.</div>
+                        <div className='sm:w-[50%] w-[90%]' data-aos='fade-up'>Машина обладает более высокой маневренностью среди конкурентов, упрощает маневрирование в ограниченном пространстве.</div>
                     </div>
                     <div className='flex flex-col gap-3 text-white text-center items-center'>
                         <div><img src={auto4} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
