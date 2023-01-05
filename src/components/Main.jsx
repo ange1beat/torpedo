@@ -110,6 +110,10 @@ const Main = () => {
                 </div>
 
                 <div id='tem' className='text-white m-auto sm:text-[100px] text-[150%] pt-[30%] pb-[10%] sm:pt-[15%]'>
+                    ОКУПАЕМОСТЬ 3 ГОДА
+                </div>
+
+                <div id='tem' className='text-white m-auto sm:text-[100px] text-[150%] pt-[30%] pb-[10%] sm:pt-[15%]'>
                     Команда проекта
                 </div>
 
