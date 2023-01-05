@@ -43,7 +43,7 @@ const Main = () => {
             <div className='flex flex-col bg-black scroll-smooth'>
                 <div className="flex flex-col text-white text-center items-center overflow-hidden flex flex-col sm:bg-center justify-center items-center h-screen bg-no-repeat w-screen bg-cover sm:w-auto">
                     <div className='text-green-500 font-bold' data-aos='fade'>Torpedo Military</div>
-                    <div className='text-white w-[90%]' data-aos='fade'>Проект разработки современной электрической военной техники для армии Российской Федерации.</div>
+                    <div className='text-white w-[90%]' data-aos='fade'>Проект разработки современной электрической военной техники с возможностью беспилотного управления для армии Российской Федерации.</div>
                 </div>
                 <div id='advt' className='text-center w-100% p-5'>
                     <div className='m-auto text-[200%] sm:text-[300%] font-bold w-max bg-gradient-to-r bg-clip-text text-transparent from-purple-500 via- to-sky-400 animate-text'>ПРЕИМУЩЕСТВА</div>
