@@ -124,7 +124,7 @@ const Main = () => {
                     <div className='flex flex-col gap-3 items-center' data-aos='fade'>
                         <img src={anton} alt='anton' className='rounded-full w-[30vh]'/>
                         <div className='font-bold sm:w-[300px]'>Троицкий Антон Александрович</div>
-                        <div className='w-[55%] sm:w-[230px]'>Окончил Специальный машиностроительный факультет МГТУ им. Баумана, экономический университет им. Г.В Плеханова, является квалифицированным инженером.</div>
+                        <div className='w-[55%] sm:w-[230px]'>Окончил факультет специального машиностроения МГТУ им. Баумана, экономический университет им. Г.В Плеханова, является квалифицированным инженером.</div>
                     </div>
                     <div className='flex flex-col gap-3 items-center' data-aos='fade'>
                         <img src={nikol} alt='nikol' className='rounded-full w-[30vh]'/>
