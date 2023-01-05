@@ -11,6 +11,9 @@ import scheme1 from './images/scheme1.jpg'
 import scheme2 from './images/scheme2.jpg'
 import scheme3 from './images/scheme3.jpg'
 import plan1 from './images/plan1.jpg'
+import gab1 from './images/gab1.jpg'
+import gab2 from './images/gab2.jpg'
+import gab3 from './images/gab3.jpg'
 import plan2 from './images/plan2.jpg'
 import vid1 from './images/vid1.mp4';
 import vid2 from './images/vid2.mp4';
@@ -71,6 +74,9 @@ const Main = () => {
                     <div className='m-auto text-[200%] sm:text-[300%] font-bold w-max bg-gradient-to-r bg-clip-text text-transparent from-purple-500 via- to-sky-400 animate-text w-auto'>РАЗРАБОТКА</div>
                 </div>
                 <div className='flex flex-col justify-center items-center text-white gap-10'>
+                    <div><img src={gab1} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
+                    <div><img src={gab2} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
+                    <div><img src={gab3} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
                     <div className='flex flex-col gap-3 text-white text-center items-center'>
                         <video src={vid4} className='w-[100%] h-[100%] sm:w-screen' loop autoPlay muted/>
                     </div>
