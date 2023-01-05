@@ -61,7 +61,7 @@ const Main = () => {
                     </div>
                     <div className='flex flex-col gap-3 text-white text-center items-center'>
                         <div><img src={auto4} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
-                        <div className='font-bold text-[130%]' data-aos='fade'>Лучшая безопасность</div>
+                        <div className='font-bold text-[130%]' data-aos='fade'>Более высокая успешность выполнения поставленных задач</div>
                         <div className='sm:w-[50%] w-[90%]' data-aos='fade'>Обладает инновационной системой курсовой устойчивости за счет управления каждым мотором на каждое колесо в зависимости от угла поворота руля.</div>
                     </div>
                     <div className='flex flex-col gap-3 text-white text-center items-center'>
