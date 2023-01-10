@@ -74,6 +74,7 @@ const Main = () => {
                     <div className='m-auto text-[200%] sm:text-[300%] font-bold w-max bg-gradient-to-r bg-clip-text text-transparent from-purple-500 via- to-sky-400 animate-text w-auto'>РАЗРАБОТКА</div>
                 </div>
                 <div className='flex flex-col justify-center items-center text-white gap-10'>
+                    <div className='font-bold text-[130%]' data-aos='fade'>Варианты исполнения на колесном и гусеничном движителе.</div>
                     <div><img src={gab1} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
                     <div><img src={gab2} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
                     <div><img src={gab3} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
@@ -86,11 +87,6 @@ const Main = () => {
                     <div className='flex flex-col gap-3 text-white text-center items-center'>
                         <video src={vid3} className='w-[100%] h-[100%] sm:w-screen' loop autoPlay muted/>
                     </div>
-                    <div className='flex flex-col gap-3 text-white text-center items-center'>
-                        <video src={vid1} className='w-[100%] h-[100%] sm:w-screen' loop autoPlay muted/>
-                    </div>
-                    <div><img src={scheme1} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
-                    <div><img src={scheme2} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
                     <div><img src={scheme3} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
                 </div>
                 <div id='act' className='text-center w-100% p-5'>
