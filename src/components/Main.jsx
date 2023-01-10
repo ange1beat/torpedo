@@ -67,7 +67,7 @@ const Main = () => {
                     <div className='flex flex-col gap-3 text-white text-center items-center'>
                         <div><img src={auto5} alt='auto2' className='w-[100%] m-auto' data-aos='fade-up'/></div>
                         <div className='font-bold text-[130%]' data-aos='fade'>Возможность передвижения по воде</div>
-                        <div className='sm:w-[50%] w-[90%]' data-aos='fade'>Имеет возможность преодолевать водные преграды за счет возможности использования герметичного корпуса тк нету рулевых тяг и проводов на колеса.</div>
+                        <div className='sm:w-[50%] w-[90%]' data-aos='fade'>Имеет возможность преодолевать водные преграды за счет возможности использования герметичного корпуса тк нету рулевых тяг и приводов на колеса.</div>
                     </div>
                 </div>
                 <div id='eng' className='text-center w-100% p-5'>
